@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3835BE501B4989F800A4F0E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3835BE4F1B4989F800A4F0E1 /* main.m */; };
+		3835BE531B4989F900A4F0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3835BE521B4989F900A4F0E1 /* AppDelegate.m */; };
+		3835BE561B4989F900A4F0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3835BE551B4989F900A4F0E1 /* ViewController.m */; };
+		3835BE591B4989F900A4F0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3835BE571B4989F900A4F0E1 /* Main.storyboard */; };
+		3835BE5B1B4989F900A4F0E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3835BE5A1B4989F900A4F0E1 /* Images.xcassets */; };
+		3835BE5E1B4989F900A4F0E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3835BE5C1B4989F900A4F0E1 /* LaunchScreen.xib */; };
+		3835BE6A1B4989F900A4F0E1 /* grabZAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3835BE691B4989F900A4F0E1 /* grabZAppTests.m */; };
+		3835BE781B498A2600A4F0E1 /* platform.c in Sources */ = {isa = PBXBuildFile; fileRef = 3835BE741B498A2600A4F0E1 /* platform.c */; };
+		3835BE791B498A2600A4F0E1 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = 3835BE761B498A2600A4F0E1 /* socket.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3835BE641B4989F900A4F0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3835BE421B4989F800A4F0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3835BE491B4989F800A4F0E1;
+			remoteInfo = grabZApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3835BE4A1B4989F800A4F0E1 /* grabZApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grabZApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3835BE4E1B4989F800A4F0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3835BE4F1B4989F800A4F0E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3835BE511B4989F900A4F0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3835BE521B4989F900A4F0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3835BE541B4989F900A4F0E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3835BE551B4989F900A4F0E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3835BE581B4989F900A4F0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3835BE5A1B4989F900A4F0E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3835BE5D1B4989F900A4F0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3835BE631B4989F900A4F0E1 /* grabZAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grabZAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3835BE681B4989F900A4F0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3835BE691B4989F900A4F0E1 /* grabZAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = grabZAppTests.m; sourceTree = "<group>"; };
+		3835BE741B498A2600A4F0E1 /* platform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = platform.c; sourceTree = "<group>"; };
+		3835BE751B498A2600A4F0E1 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		3835BE761B498A2600A4F0E1 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		3835BE771B498A2600A4F0E1 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3835BE471B4989F800A4F0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3835BE601B4989F900A4F0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3835BE411B4989F800A4F0E1 = {
+			isa = PBXGroup;
+			children = (
+				3835BE4C1B4989F800A4F0E1 /* grabZApp */,
+				3835BE661B4989F900A4F0E1 /* grabZAppTests */,
+				3835BE4B1B4989F800A4F0E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3835BE4B1B4989F800A4F0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3835BE4A1B4989F800A4F0E1 /* grabZApp.app */,
+				3835BE631B4989F900A4F0E1 /* grabZAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3835BE4C1B4989F800A4F0E1 /* grabZApp */ = {
+			isa = PBXGroup;
+			children = (
+				3835BE731B498A1D00A4F0E1 /* net */,
+				3835BE511B4989F900A4F0E1 /* AppDelegate.h */,
+				3835BE521B4989F900A4F0E1 /* AppDelegate.m */,
+				3835BE541B4989F900A4F0E1 /* ViewController.h */,
+				3835BE551B4989F900A4F0E1 /* ViewController.m */,
+				3835BE571B4989F900A4F0E1 /* Main.storyboard */,
+				3835BE5A1B4989F900A4F0E1 /* Images.xcassets */,
+				3835BE5C1B4989F900A4F0E1 /* LaunchScreen.xib */,
+				3835BE4D1B4989F800A4F0E1 /* Supporting Files */,
+			);
+			path = grabZApp;
+			sourceTree = "<group>";
+		};
+		3835BE4D1B4989F800A4F0E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3835BE4E1B4989F800A4F0E1 /* Info.plist */,
+				3835BE4F1B4989F800A4F0E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3835BE661B4989F900A4F0E1 /* grabZAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3835BE691B4989F900A4F0E1 /* grabZAppTests.m */,
+				3835BE671B4989F900A4F0E1 /* Supporting Files */,
+			);
+			path = grabZAppTests;
+			sourceTree = "<group>";
+		};
+		3835BE671B4989F900A4F0E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3835BE681B4989F900A4F0E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3835BE731B498A1D00A4F0E1 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				3835BE741B498A2600A4F0E1 /* platform.c */,
+				3835BE751B498A2600A4F0E1 /* platform.h */,
+				3835BE761B498A2600A4F0E1 /* socket.c */,
+				3835BE771B498A2600A4F0E1 /* socket.h */,
+			);
+			name = net;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3835BE491B4989F800A4F0E1 /* grabZApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3835BE6D1B4989F900A4F0E1 /* Build configuration list for PBXNativeTarget "grabZApp" */;
+			buildPhases = (
+				3835BE461B4989F800A4F0E1 /* Sources */,
+				3835BE471B4989F800A4F0E1 /* Frameworks */,
+				3835BE481B4989F800A4F0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grabZApp;
+			productName = grabZApp;
+			productReference = 3835BE4A1B4989F800A4F0E1 /* grabZApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3835BE621B4989F900A4F0E1 /* grabZAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3835BE701B4989F900A4F0E1 /* Build configuration list for PBXNativeTarget "grabZAppTests" */;
+			buildPhases = (
+				3835BE5F1B4989F900A4F0E1 /* Sources */,
+				3835BE601B4989F900A4F0E1 /* Frameworks */,
+				3835BE611B4989F900A4F0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3835BE651B4989F900A4F0E1 /* PBXTargetDependency */,
+			);
+			name = grabZAppTests;
+			productName = grabZAppTests;
+			productReference = 3835BE631B4989F900A4F0E1 /* grabZAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3835BE421B4989F800A4F0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Han.zhihong;
+				TargetAttributes = {
+					3835BE491B4989F800A4F0E1 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					3835BE621B4989F900A4F0E1 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 3835BE491B4989F800A4F0E1;
+					};
+				};
+			};
+			buildConfigurationList = 3835BE451B4989F800A4F0E1 /* Build configuration list for PBXProject "grabZApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3835BE411B4989F800A4F0E1;
+			productRefGroup = 3835BE4B1B4989F800A4F0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3835BE491B4989F800A4F0E1 /* grabZApp */,
+				3835BE621B4989F900A4F0E1 /* grabZAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3835BE481B4989F800A4F0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3835BE591B4989F900A4F0E1 /* Main.storyboard in Resources */,
+				3835BE5E1B4989F900A4F0E1 /* LaunchScreen.xib in Resources */,
+				3835BE5B1B4989F900A4F0E1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3835BE611B4989F900A4F0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3835BE461B4989F800A4F0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3835BE781B498A2600A4F0E1 /* platform.c in Sources */,
+				3835BE561B4989F900A4F0E1 /* ViewController.m in Sources */,
+				3835BE531B4989F900A4F0E1 /* AppDelegate.m in Sources */,
+				3835BE501B4989F800A4F0E1 /* main.m in Sources */,
+				3835BE791B498A2600A4F0E1 /* socket.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3835BE5F1B4989F900A4F0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3835BE6A1B4989F900A4F0E1 /* grabZAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3835BE651B4989F900A4F0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3835BE491B4989F800A4F0E1 /* grabZApp */;
+			targetProxy = 3835BE641B4989F900A4F0E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3835BE571B4989F900A4F0E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3835BE581B4989F900A4F0E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3835BE5C1B4989F900A4F0E1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3835BE5D1B4989F900A4F0E1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3835BE6B1B4989F900A4F0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3835BE6C1B4989F900A4F0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3835BE6E1B4989F900A4F0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = grabZApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3835BE6F1B4989F900A4F0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = grabZApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3835BE711B4989F900A4F0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = grabZAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grabZApp.app/grabZApp";
+			};
+			name = Debug;
+		};
+		3835BE721B4989F900A4F0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = grabZAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grabZApp.app/grabZApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3835BE451B4989F800A4F0E1 /* Build configuration list for PBXProject "grabZApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3835BE6B1B4989F900A4F0E1 /* Debug */,
+				3835BE6C1B4989F900A4F0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3835BE6D1B4989F900A4F0E1 /* Build configuration list for PBXNativeTarget "grabZApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3835BE6E1B4989F900A4F0E1 /* Debug */,
+				3835BE6F1B4989F900A4F0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3835BE701B4989F900A4F0E1 /* Build configuration list for PBXNativeTarget "grabZAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3835BE711B4989F900A4F0E1 /* Debug */,
+				3835BE721B4989F900A4F0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3835BE421B4989F800A4F0E1 /* Project object */;
+}

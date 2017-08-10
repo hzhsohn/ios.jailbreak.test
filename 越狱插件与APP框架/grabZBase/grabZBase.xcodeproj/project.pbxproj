@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3889DC551B4507E200A3A301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3889DC541B4507E200A3A301 /* Foundation.framework */; };
+		3889DC601B4507E200A3A301 /* grabZBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3889DC5F1B4507E200A3A301 /* grabZBase.mm */; };
+		3889DC6B1B45086C00A3A301 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3889DC6A1B45086C00A3A301 /* UIKit.framework */; };
+		3889DC6D1B45087200A3A301 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3889DC6C1B45087200A3A301 /* CoreGraphics.framework */; };
+		3889DC6F1B45088100A3A301 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3889DC6E1B45088100A3A301 /* libsubstrate.dylib */; };
+		3889DC791B45108D00A3A301 /* MzhNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 3889DC771B45108D00A3A301 /* MzhNet.h */; };
+		3889DC7A1B45108D00A3A301 /* MzhNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3889DC781B45108D00A3A301 /* MzhNet.m */; };
+		3889DC881B4512CA00A3A301 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3889DC871B4512CA00A3A301 /* QuartzCore.framework */; };
+		3889DCCB1B45269100A3A301 /* platform.c in Sources */ = {isa = PBXBuildFile; fileRef = 3889DCC51B45269100A3A301 /* platform.c */; };
+		3889DCCC1B45269100A3A301 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 3889DCC61B45269100A3A301 /* platform.h */; };
+		3889DCCD1B45269100A3A301 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = 3889DCC71B45269100A3A301 /* socket.c */; };
+		3889DCCE1B45269100A3A301 /* socket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3889DCC81B45269100A3A301 /* socket.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3889DC511B4507E200A3A301 /* grabZBase.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = grabZBase.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3889DC541B4507E200A3A301 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3889DC5A1B4507E200A3A301 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		3889DC5C1B4507E200A3A301 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		3889DC5D1B4507E200A3A301 /* grabZBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "grabZBase-Prefix.pch"; sourceTree = "<group>"; };
+		3889DC5E1B4507E200A3A301 /* grabZBase.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = grabZBase.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3889DC5F1B4507E200A3A301 /* grabZBase.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = grabZBase.mm; sourceTree = "<group>"; };
+		3889DC641B4507E200A3A301 /* grabZBase.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = grabZBase.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/grabZBase.plist; sourceTree = "<group>"; };
+		3889DC6A1B45086C00A3A301 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3889DC6C1B45087200A3A301 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3889DC6E1B45088100A3A301 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsubstrate.dylib; sourceTree = "<group>"; };
+		3889DC771B45108D00A3A301 /* MzhNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MzhNet.h; sourceTree = "<group>"; };
+		3889DC781B45108D00A3A301 /* MzhNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MzhNet.m; sourceTree = "<group>"; };
+		3889DC871B4512CA00A3A301 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3889DCC51B45269100A3A301 /* platform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = platform.c; path = grabZBase/platform.c; sourceTree = SOURCE_ROOT; };
+		3889DCC61B45269100A3A301 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform.h; path = grabZBase/platform.h; sourceTree = SOURCE_ROOT; };
+		3889DCC71B45269100A3A301 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = socket.c; path = grabZBase/socket.c; sourceTree = SOURCE_ROOT; };
+		3889DCC81B45269100A3A301 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = socket.h; path = grabZBase/socket.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3889DC4D1B4507E200A3A301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3889DC881B4512CA00A3A301 /* QuartzCore.framework in Frameworks */,
+				3889DC6F1B45088100A3A301 /* libsubstrate.dylib in Frameworks */,
+				3889DC6D1B45087200A3A301 /* CoreGraphics.framework in Frameworks */,
+				3889DC6B1B45086C00A3A301 /* UIKit.framework in Frameworks */,
+				3889DC551B4507E200A3A301 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3889DC461B4507E200A3A301 = {
+			isa = PBXGroup;
+			children = (
+				3889DC701B450AFA00A3A301 /* net */,
+				3889DC561B4507E200A3A301 /* grabZBase */,
+				3889DC531B4507E200A3A301 /* Frameworks */,
+				3889DC521B4507E200A3A301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3889DC521B4507E200A3A301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3889DC511B4507E200A3A301 /* grabZBase.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3889DC531B4507E200A3A301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3889DC871B4512CA00A3A301 /* QuartzCore.framework */,
+				3889DC6E1B45088100A3A301 /* libsubstrate.dylib */,
+				3889DC6C1B45087200A3A301 /* CoreGraphics.framework */,
+				3889DC6A1B45086C00A3A301 /* UIKit.framework */,
+				3889DC541B4507E200A3A301 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3889DC561B4507E200A3A301 /* grabZBase */ = {
+			isa = PBXGroup;
+			children = (
+				3889DC771B45108D00A3A301 /* MzhNet.h */,
+				3889DC781B45108D00A3A301 /* MzhNet.m */,
+				3889DC5E1B4507E200A3A301 /* grabZBase.xm */,
+				3889DC5F1B4507E200A3A301 /* grabZBase.mm */,
+				3889DC571B4507E200A3A301 /* Package */,
+				3889DC5B1B4507E200A3A301 /* Supporting Files */,
+			);
+			path = grabZBase;
+			sourceTree = "<group>";
+		};
+		3889DC571B4507E200A3A301 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				3889DC581B4507E200A3A301 /* DEBIAN */,
+				3889DC611B4507E200A3A301 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		3889DC581B4507E200A3A301 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				3889DC5A1B4507E200A3A301 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		3889DC5B1B4507E200A3A301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3889DC5C1B4507E200A3A301 /* PackageVersion.plist */,
+				3889DC5D1B4507E200A3A301 /* grabZBase-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3889DC611B4507E200A3A301 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3889DC621B4507E200A3A301 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		3889DC621B4507E200A3A301 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				3889DC631B4507E200A3A301 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		3889DC631B4507E200A3A301 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				3889DC641B4507E200A3A301 /* grabZBase.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		3889DC701B450AFA00A3A301 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				3889DCC51B45269100A3A301 /* platform.c */,
+				3889DCC61B45269100A3A301 /* platform.h */,
+				3889DCC71B45269100A3A301 /* socket.c */,
+				3889DCC81B45269100A3A301 /* socket.h */,
+			);
+			name = net;
+			path = grabZBase/net;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3889DC4E1B4507E200A3A301 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3889DCCC1B45269100A3A301 /* platform.h in Headers */,
+				3889DC791B45108D00A3A301 /* MzhNet.h in Headers */,
+				3889DCCE1B45269100A3A301 /* socket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3889DC501B4507E200A3A301 /* grabZBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3889DC671B4507E200A3A301 /* Build configuration list for PBXNativeTarget "grabZBase" */;
+			buildPhases = (
+				3889DC4B1B4507E200A3A301 /* ShellScript */,
+				3889DC4C1B4507E200A3A301 /* Sources */,
+				3889DC4D1B4507E200A3A301 /* Frameworks */,
+				3889DC4E1B4507E200A3A301 /* Headers */,
+				3889DC4F1B4507E200A3A301 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grabZBase;
+			productName = grabZBase;
+			productReference = 3889DC511B4507E200A3A301 /* grabZBase.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3889DC471B4507E200A3A301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					3889DC501B4507E200A3A301 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 3889DC4A1B4507E200A3A301 /* Build configuration list for PBXProject "grabZBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3889DC461B4507E200A3A301;
+			productRefGroup = 3889DC521B4507E200A3A301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3889DC501B4507E200A3A301 /* grabZBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3889DC4B1B4507E200A3A301 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		3889DC4F1B4507E200A3A301 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3889DC4C1B4507E200A3A301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3889DC601B4507E200A3A301 /* grabZBase.mm in Sources */,
+				3889DC7A1B45108D00A3A301 /* MzhNet.m in Sources */,
+				3889DCCB1B45269100A3A301 /* platform.c in Sources */,
+				3889DCCD1B45269100A3A301 /* socket.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3889DC651B4507E200A3A301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		3889DC661B4507E200A3A301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		3889DC681B4507E200A3A301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "grabZBase/grabZBase-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/include/objc ./net";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.1.111;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		3889DC691B4507E200A3A301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "grabZBase/grabZBase-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/include/objc ./net";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.1.111;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3889DC4A1B4507E200A3A301 /* Build configuration list for PBXProject "grabZBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3889DC651B4507E200A3A301 /* Debug */,
+				3889DC661B4507E200A3A301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3889DC671B4507E200A3A301 /* Build configuration list for PBXNativeTarget "grabZBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3889DC681B4507E200A3A301 /* Debug */,
+				3889DC691B4507E200A3A301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3889DC471B4507E200A3A301 /* Project object */;
+}
